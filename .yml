@@ -3,4 +3,6 @@
   with:
       project-name: 2021-12-08 - Taproot
       column-name: To prioritize
-      assign: @hynek-jina
+      jobs:
+        assign: @hynek-jina
+        assign: hynek-jina
