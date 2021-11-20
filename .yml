@@ -1,2 +1,6 @@
 - name: Create or Update Project Card
   uses: peter-evans/create-or-update-project-card@v1.1.4
+  with:
+      project-name: 2021-12-08 - Taproot
+      column-name: To prioritize
+      assign: @hynek-jina
