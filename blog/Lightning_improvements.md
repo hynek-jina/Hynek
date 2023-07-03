@@ -20,6 +20,8 @@ How to make it more effective (cheaper)
 ![image](https://github.com/hynek-jina/Hynek/assets/26002916/0e214516-b34a-4175-aa05-fce4ce6f1c0d)
 
 #### 2. Opening of more channels with one transaction
+![image](https://github.com/hynek-jina/Hynek/assets/26002916/1d6987c1-a3f6-4818-ac79-d684a40e7898)
+
 #### 3. Closing of more channels with one transaction
 #### 4. Opening and closing with one transaction
 #### 5. Adding output into closing transaction
