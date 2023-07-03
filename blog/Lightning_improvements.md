@@ -8,7 +8,6 @@
 
 ![image](https://github.com/hynek-jina/Hynek/assets/26002916/53184aa8-f561-448b-b9f3-5fab705c6c4e)
 
-**What is the problem?**
 It works nice.. But it can be costly, transactions are failing sometimes, you need to lock a lot of liquidity, be always online and so on...
 
 ### Proposals
