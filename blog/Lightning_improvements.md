@@ -17,6 +17,8 @@ It works nice.. But it can be costly, transactions are failing sometimes, you ne
 How to make it more effective (cheaper)
 
 #### 1. Growing and shrinking channels
+![image](https://github.com/hynek-jina/Hynek/assets/26002916/0e214516-b34a-4175-aa05-fce4ce6f1c0d)
+
 #### 2. Opening of more channels with one transaction
 #### 3. Closing of more channels with one transaction
 #### 4. Opening and closing with one transaction
