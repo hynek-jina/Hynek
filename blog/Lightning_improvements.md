@@ -1,12 +1,10 @@
 ## List of Lightning Network improvements
 
-What is happening? I don't actually know. So this is an effort to navigate the Lightning Network [LN] ⚡.
-
 #### How currently LN works?
-- I want to open a channel to someone
-- Together we create a 2/2 multisig address
-- We'll set up a closing transaction from which all the funds go to me
-- I then send bitcoin to this multisig address in the agreed amount
+- Alice wants to open a channel to Bob
+- Together they create a 2/2 multisig address
+- They'll set up a closing transaction from which all the funds go to Alice
+- Alice then send bitcoin to this multisig address in the agreed amount
 
 ![image](https://github.com/hynek-jina/Hynek/assets/26002916/53184aa8-f561-448b-b9f3-5fab705c6c4e)
 
