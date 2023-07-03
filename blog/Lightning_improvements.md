@@ -23,7 +23,15 @@ How to make it more effective (cheaper)
 ![image](https://github.com/hynek-jina/Hynek/assets/26002916/1d6987c1-a3f6-4818-ac79-d684a40e7898)
 
 #### 3. Closing of more channels with one transaction
+![image](https://github.com/hynek-jina/Hynek/assets/26002916/7d160fd9-cf85-4fae-a7cf-75cac7755d96)
+
 #### 4. Opening and closing with one transaction
+![image](https://github.com/hynek-jina/Hynek/assets/26002916/c8834c6e-7750-4c50-bead-f5001ff053dc)
+
 #### 5. Adding output into closing transaction
+![image](https://github.com/hynek-jina/Hynek/assets/26002916/af7c0030-2cb8-4b97-99b7-fc7c0483fc8c)
+
 #### 6. More owners of one channel
+![image](https://github.com/hynek-jina/Hynek/assets/26002916/eebff453-c0fd-41b8-94bd-e91eaf5c81bd)
+
 #### 7. More owners of one UTXO - (ie [Ark](https://www.arkpill.me/))
