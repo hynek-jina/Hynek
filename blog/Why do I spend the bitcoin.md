@@ -26,4 +26,4 @@ With every predictable purchase using bitcoin, he gradually reduces his dependen
 ![image](https://github.com/hynek-jina/Hynek/assets/26002916/fdd6149e-de35-48bf-98dd-a4e97e18ecd6)
 
 ### What is the conclusion?
-→ Pay with bitcoin to hodl more bitcoin. _I don't make the rules..._
+→ Pay with bitcoin to hodl more bitcoin.
