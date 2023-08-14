@@ -49,7 +49,7 @@ Nejen že ho s sebou nenosíte. Především ho nechcete skladovat. Ani nechcete
 Tento pohled nemusí být všechno nebo nic. Klidně mějte trochu obilí, netvrďte mi ale, že ho chcete používat k platbě. To platí jedině velmi krátkodobě, když se ho potřebujete zbavit.
 2. **Obchodníci přijímající obilí jsou divní**  
 I způsob platby může o obchodníkovi leccos prozrazovat. Co byste si dnes mysleli o člověku, který se nechává platit obilím? Pokud někdo vyžaduje zastaralou formu platby, tak vás může snadno odradit. Naopak podnik s novými možnostmi se může pro lidi stát [love brandem](https://juraj.bednar.io/blog/2022/11/04/preco-akceptovat-bitcoin-stante-sa-%E2%9D%A4%EF%B8%8F-brandom/).
-3. **Platit obilím je urážlivé**
+3. **Platit obilím je urážlivé**  
 Dáváte ti najevo, že si obchodníka nevážíte, když mu nabízíte méněcennou formu platby.
 4. **Skoro nikdo už obilí nepřijímá**  
 Dnes již prakticky žádný obchodník obilí jako platbu nepřijme. Proti Greshamovu zákonu totiž působí přesně v opačeném směru tzv. Thiersův zákon. Ten v zásadě říká, že i obchodník má své hranice a když jsou nabízené peníze moc špatné, tak je zkrátka odmítne. Kdo bude mít tou dobou pro platbu připravené obilí tak s ním už nikde nezaplatí. Naštěstí by ho mohl alespoň použít ke spotřebě. Co ale uděláte jednou s bezcenným fiatem?
