@@ -11,7 +11,7 @@ Míst, kde člověk může zaplatit, přibývá pomalu. V dnešní době bych al
 3. **Je to nepohodlné?**  
 Používat bitcoin je každým dnem jednodušší. Neustále vznikají nové nástroje. Nicméně pokud se vám nechce zkoumat různé aplikace nebo je to pro vás z jiného důvodu moc práce, tak možná na platbu bitcoinem ještě nejste připraveni.
 4. **Trápí vás volatilita?**  
-Není žádoucí, aby byly ceny fixní, ale je pravda že příliš veliká volatilita může být nepříjemná. Jednou zaplatíte trochu víc, jindy zase trochu míň. Mentálně to může být zpočátku nepříjemné, ale časem spekulujete méně a méně. Krátkodobé výkyvy nejsou dlouhodobě podstatné.
+Není žádoucí, aby byly ceny fixní, ale je pravda, že příliš veliká volatilita může být nepříjemná. Jednou zaplatíte trochu víc, jindy zase trochu míň. Mentálně to může být zpočátku nepříjemné, ale časem spekulujete méně a méně. Krátkodobé výkyvy nejsou dlouhodobě podstatné.
 5. **Máte bitcoinu málo?**  
 Tento častý problém se dá řešit například tak, že si bitcoinu zkrátka koupíte víc.
 6. **Získání bitcoinu je spojeno s moc velikými náklady?**  
