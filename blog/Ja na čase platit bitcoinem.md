@@ -56,7 +56,7 @@ Dnes již prakticky žádný obchodník obilí jako platbu nepřijme. Proti Gres
 
 ## Nelitujte utracených bitcoinů
 
-Představte si, že byste si před mnoha lety koupili dvě pizzy a zaplatili bitcoinem. Kdybyste to udělali jako Laszlo Hanyecz ****22. května 2010, tak by vás to stálo celkem 10 000 bitcoinů. K 28. 7. 2023 byste místo toho mohli mít 6 379 500 000 Kč. (Přes šest miliard 😱)
+Představte si, že byste si před mnoha lety koupili dvě pizzy a zaplatili bitcoinem. Kdybyste to udělali jako Laszlo Hanyecz 22. května 2010, tak by vás to stálo celkem 10 000 bitcoinů. K 28. 7. 2023 byste místo toho mohli mít 6 379 500 000 Kč. (Přes šest miliard 😱)
 
 Mrzelo by vás, že jste na to tenkrát použili bitcoin? Laszlo Hanyecz toho dle svých slov nikdy nelitoval, protože pizza byla opravdu dobrá. Dřív mi přišlo, že se jenom chlubí, ale učitě ho to musí trápit. Dneska prakticky nevidím důvod, proč by ho přímo platba bitcoinem měla trápit.
 
