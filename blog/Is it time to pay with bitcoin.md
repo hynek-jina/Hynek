@@ -56,7 +56,7 @@ Today, virtually no merchant will accept grain as payment. In fact, the so-calle
 
 ## Don't regret spending bitcoins
 
-Imagine buying two pizzas many years ago and paying with bitcoin. If you had done it like Laszlo Hanyecz did on May 22, 2010, it would have cost you a total of 10,000 bitcoins. As of August 14, 2023, you could have 2,940,000,000 USD instead. (Almost three billion 😱)
+Imagine buying two pizzas many years ago and paying with bitcoin. If you had done it like Laszlo Hanyecz did on May 22, 2010, it would have cost you a total of 10,000 bitcoins. As of August 14, 2023, you could have 294,000,000 USD instead. (Almost 300 million 😱)
 
 Would you be sorry you used bitcoin to do it back then? In his own words, Laszlo Hanyecz never regretted it because the pizza was really good. I used to think he was just bragging, but it must bother him now. Nowadays, I practically don't see why paying with bitcoin should bother him directly.
 
