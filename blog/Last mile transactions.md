@@ -73,6 +73,48 @@ Alice can similarly bribe miners (sharing valuable transaction with conditions a
 
 → 🟠 This problem seems serious to me as of now, but not critical
 
+### 5. How do we make sure Bob doesn't attack even if he has nothing to lose?
+
+If Bob sends all the resources back to Alice, he has nothing to lose, but he can harm her. He can share an old defense transaction that burns some of the resources for the miners.
+
+| Transaction outputs | Alice | Bob | Punishment Fee |
+| --- | --- | --- | --- |
+| Status transaction | 10 | 0 | 0 |
+| Old Defense transaction | 8 | 0.5 | 1.5 |
+
+→ 🟡 Bob’s balance should go to zero or the UTXO should be updated. This is quite limiting and this prevents the effective use of one utxo for multiple people. 
+
+**An option to set the transaction expiration would solve the problem.**
+
+## Transaction Expiration
+
+Bitcoin transaction may contain a `Locktime`, which determines the point at which the transaction is `final` and can be broadcasted and mined.
+
+To be able to securely reuse UTXO without on-chain transaction, we need to be able to cancel the promise. Invalidate the transaction after a certain period of time. A transaction that had a specified expiration block size could not be mined after the block had expired - such transaction wouldn’t be valid anymore. 
+
+→ 🔴 Bitcoin soft-fork is required to unleash full potential of Last Mile
+
+## Potential impact of `Last Mile`
+
+### Scaling
+
+- Self-custody without costs for as many users as there are currently UTXOs. 
+*In 2024 more than 170M.*
+    - The given UTXO must be at least 3 times larger than dust to pay the lowest mining fee, to create at least a dust UTXO for Bob and to protect against Alice's attack. Ideally it should be bigger, but it doesn't have to be huge. But for the sake of simplicity, let's say that UTXO must not be less than 2000 sats.
+- UTXO does not have to be actually spent → The channel can stay open or be closed either in the intermediate state or the whole UTXO is sent to Alice or Bob
+    - There is workaround with introduction of other risk. Clean solution would be to introduce `Expiration` into bitcoin.
+- Last Mile could be connected with Lightning Network if Alice has some lightning channels.
+- Status transactions could be coordinated into coinjoin to save even more on fees
+
+### Decentralization
+
+- More people can became self-sovereign - without relying on service providers
+
+### Fees
+
+- There is still a need to record transactions if one wants to be sure
+- Owners of multiple UTXOs can provide routing similar to LN
+
 ---
 
 *Other optional steps:*
@@ -84,12 +126,18 @@ Alice can similarly bribe miners (sharing valuable transaction with conditions a
 ## Summary
 
 - 🟢 Regular bitcoin addresses can be used
-- 🟢 Annyone could accept bitcoin and being connected to Lightning Network non-custodial way without necesity of opening channel fee
+- 🟢 Anyone could accept bitcoin and being connected to Lightning Network non-custodial way without need of opening channel fee
 - 🟢 Immediate transactions
-- 🟢 There can be multiple users in a single UTXO channel
+- 🟢 There could be multiple users in a single UTXO channel
+- ⚪ Multiple UTXO owners can route payments
+- ⚪ Could be connected to Lightning
 - ⚪ Up to half the size of the UTXO can be used in one channel
 - ⚪ Might be more useful for relatively smaller UTXOs
 - 🟡 All participants must be online to update the transactions
 - 🟡 Risk that the counterparty gets nervous and you both lose part of the funds
 - 🟡 Risk that the counterparty is also a huge individual miner and can steal some funds (in case of receiver) or even all the funds (in case o UTXO owner/initial sender)
 - 🟠 Risk of long-term collaboration with miners
+
+With activation of transaction `Expiration`:
+
+- 🟢 UTXO can be endlessly reused
