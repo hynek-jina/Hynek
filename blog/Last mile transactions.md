@@ -121,7 +121,7 @@ Dots are emerging and dissapearing when users are doing transactions on-chain.
 ![LM schema 1](https://github.com/hynek-jina/Hynek/assets/26002916/03237b59-c2b4-4cdb-802e-26b2562e083d)
 
 **Introduction of Lightning Network** \
-Lightning is clearing the state between two parties and connects to the the network.
+Lightning is clearing the state between two parties and connects them to the network.
 ![LM schema 2](https://github.com/hynek-jina/Hynek/assets/26002916/1f00ea20-b5fe-439d-9a4d-189f5df1b466)
 
 **Last mile ambition** \
