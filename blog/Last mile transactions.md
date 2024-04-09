@@ -115,13 +115,21 @@ To be able to securely reuse UTXO without on-chain transaction, we need to be ab
 - There is still a need to record transactions if one wants to be sure
 - Owners of multiple UTXOs can provide routing similar to LN
 
----
+## Visualisation for better understanding
+**Simple existence of bitcoin users** \
+Dots are emerging and dissapearing when users are doing transactions on-chain.
+![LM schema 1](https://github.com/hynek-jina/Hynek/assets/26002916/03237b59-c2b4-4cdb-802e-26b2562e083d)
 
-*Other optional steps:*
+**Introduction of Lightning Network** \
+Lightning is clearing the state between two parties and connects to the the network.
+![LM schema 2](https://github.com/hynek-jina/Hynek/assets/26002916/1f00ea20-b5fe-439d-9a4d-189f5df1b466)
 
-- *Alice can send Bob additional funds (up to one half the size of the original UTXO in total)*
-- *Bob can send the funds back to Alice*
-- *Maybe Bob could pay other people via LN if Bob has open channels*
+**Last mile ambition** \
+Last mile could anable more people to have real but unconfirmed bitcoin and manipulate with it according their need.
+![LM schema 3](https://github.com/hynek-jina/Hynek/assets/26002916/ff5f99a8-e7cd-456d-8240-c087308ee072)
+
+### Last mile offers another trade-off between security and costs
+![LM comparison](https://github.com/hynek-jina/Hynek/assets/26002916/b015b204-7890-40c4-81cc-c1824d967167)
 
 ## Summary
 
