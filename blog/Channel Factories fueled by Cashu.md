@@ -48,17 +48,34 @@ Combination of 🫂Verified Contacts, 🥜Cashu Mint, and 🦤 Nostr enables th
 
 Sometimes its not needed to settle the promises. Amounts might be too small or more promises might clear out.
 
-1. Alice sends  1.000 sat to Bob. 
-*I will type it as 1 kA which means 1 thousand satoshis promised by Alice.*
-    1. On-chain transaction would cost Alice circa 500 sat which is 50%
-    2. *Bob could request for this settlement too, but prefers the risk over costs*
-2. Later on Bob pays to Alice 1.200 sat
-    1. Bob uses his previously earned 1 kA and issue 0.2 kB on top off that.
-    2. Promise differences are now bellow the dust. It’s not economical to settle this difference under the current circumstances.
+*1kA means 1.000 satoshis promised by Alice*
 
-| ![](https://github.com/hynek-jina/Hynek/blob/main/images/cashu_factory%200.png) | ![](https://github.com/hynek-jina/Hynek/blob/main/images/cashu_factory%201.png) |
-|---|---|
-| <sub> Bob has 1.000 sat promised from Alice </sub> | <sub> Bob paid to Alice with her previous promise and added 200 sat of his promises on top of that </sub> |
+<table>
+  <tr>
+    <td>
+      <b>Clearing without settlement</b>
+      <br><br>
+      <ul>
+        <li>Alice sends  1.000 sat to Bob.</li>
+        <ul>
+            <li>On-chain transaction would cost Alice circa 500 sat which is 50%</li>
+            <li>Bob could request for this settlement too, but prefers the risk over costs</li>
+        </ul>
+        <li>Later on Bob pays to Alice 1.200 sat</li>
+        <ul>
+            <li>Bob uses his previously earned 1 kA and issue 0.2 kB on top off that.</li>
+            <li>Promise differences are now bellow the dust. It’s not economical to settle this difference under the current circumstances.</li>
+        </ul>
+      </ul>
+    </td>
+    <td>
+     <img src="https://github.com/hynek-jina/Hynek/blob/main/images/cashu_factory%200.png" width="260"><br>
+        <sub>Bob has 1.000 sat promised from Alice</sub><br>
+      <img src="https://github.com/hynek-jina/Hynek/blob/main/images/cashu_factory%203.png" width="320"><br>
+      <sub>Bob paid to Alice with her previous promise and added 200 sat of his promises on top of that</sub>   
+    </td>
+  </tr>
+</table>
 
 ### 👴 On-chain
 
@@ -97,40 +114,46 @@ You don’t have to open channel to perfectly connected and the biggest channel,
       </ul>
     </td>
     <td>
-      <img src="https://github.com/hynek-jina/Hynek/blob/main/images/cashu_factory%202.png" width="260">
-      <img src="https://github.com/hynek-jina/Hynek/blob/main/images/cashu_factory%203.png" width="260">
-      <br>
+      <img src="https://github.com/hynek-jina/Hynek/blob/main/images/cashu_factory%202.png" width="320"><br>
+      <img src="https://github.com/hynek-jina/Hynek/blob/main/images/cashu_factory%203.png" width="320"><br>
       <sub>Opened channel between A&B with all liquidity on B side and no promises in the economy</sub>
     </td>
   </tr>
+    <tr>
+        <td>
+        <b>Cashu clearing</b>
+            <br><br>
+            <ul>
+                <li>Bob pays another 20kB to Carlos</li>
+                <li>Carlos pays 20kC to Alice</li>
+                <li>Alice now has 20kC - she can claim them on-chain. However it costs 500 sats.</li>
+                <li>Alice also has the more efficient option of exchanging 20kC for 20kB. And claim these Bob tokens immediately via LN.</li>
+            </ul>
+        </td>
+        <td>
+            <img src="https://github.com/hynek-jina/Hynek/blob/main/images/cashu_factory%204.png" width="320"><br>
+            <img src="https://github.com/hynek-jina/Hynek/blob/main/images/cashu_factory%205.png" width="320">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <b>Cashu could be used as an extension for LN</b>
+            <br><br>
+            <ul>
+                <li>There are channels between A&B, and also between C&D</li>
+                <li>B and C are verified contacts, but not having opened LN channel</li>
+                <li>A can pay to D even though there is no LN path between them</li>
+                <li>In this case C would accept promise from B</li>
+            </ul>
+        </td>
+        <td>
+            <img src="https://github.com/hynek-jina/Hynek/blob/main/images/cashu_factory%206.png" width="320"><br>
+            <sub>Initial state before the transaction</sub><br>
+            <img src="https://github.com/hynek-jina/Hynek/blob/main/images/cashu_factory%207.png" width="320"><br>
+            <sub>Alice sent 10.000 sats to David. Carlos received promise from Bob and paid “for him” to David. Carlos would probably demand here higher fee in this scenario. Or lower if that transaction wouldn’t  increase the needed trust but decrease it.</sub>
+        </td>
+    </tr>
 </table>
-
-
-
-**Cashu clearing**
-
-- Bob pays another 20kB to Carlos
-- Carlos pays 20kC to Alice
-- Alice now has 20kC - she can claim them on-chain. However it costs 500 sats.
-- Alice also has the more efficient option of exchanging 20kC for 20kB. And claim these Bob tokens immediately via LN.
-
-| ![](https://github.com/hynek-jina/Hynek/blob/main/images/cashu_factory%204.png) | ![](https://github.com/hynek-jina/Hynek/blob/main/images/cashu_factory%205.png)|
-| --- | --- |
-
-**Cashu could be used as an extension for LN**
-
-- There are channels between A&B, and also between C&D
-- B and C are verified contacts, but not having opened LN channel
-- A can pay to D even though there is no LN path between them
-- In this case C would accept promise from B
-
-![Initial state before the transaction](Channel%20Factories%20fueled%20by%20Cashu%20177dc526060680128c60de8c381e150b/image%206.png)
-
-Initial state before the transaction
-
-![Alice sent 10.000 sats to David. Carlos received promise from Bob and paid “for him” to David. Carlos would probably demand here higher fee in this scenario. Or lower if that transaction wouldn’t  increase the needed trust but decrease it.](Channel%20Factories%20fueled%20by%20Cashu%20177dc526060680128c60de8c381e150b/image%207.png)
-
-Alice sent 10.000 sats to David. Carlos received promise from Bob and paid “for him” to David. Carlos would probably demand here higher fee in this scenario. Or lower if that transaction wouldn’t  increase the needed trust but decrease it.
 
 We can potentially use alternative  settlements in the future - like Ark or side chains, or who knows what. But our aim here is to separate the logic of the individual transaction and the subsequent settlement. This allows us to make settlement smarter and thus cheaper.
 
@@ -140,14 +163,24 @@ If we want to onboard all the people into bitcoin, lightning is not enough. Howe
 
 Factories can be built between verified contacts—either at a scale where everyone trusts everyone or where each participant has at least two trusted contacts in the network. Some degree of trust is valuable for bridging uncertainty when peers optimize virtual channels. The ability to communicate and recognize each other further enhances security.
 
-**Open Chanel Factory**
+<table>
+  <tr>
+    <td>
+      <b>Open Chanel Factory</b>
+      <br><br>
+      <ul>
+        <li>A, B, C, and D has opened `CF`</li>
+        <li>Each peer has two balanced virtual channels.</li>
+      </ul>
+    </td>
+    <td>
+     <img src="https://github.com/hynek-jina/Hynek/blob/main/images/cashu_factory%208.png" width="320"><br>
+    </td>
+  </tr>
+</table>
 
-- A, B, C, and D has opened `CF`
-- Each peer has two balanced virtual channels.
-
-![image.png](Channel%20Factories%20fueled%20by%20Cashu%20177dc526060680128c60de8c381e150b/image%208.png)
 
 When someone needs to rebalance his channel. They can freeze current state - temporary swap for from LN channels to issuing cashu tokens. And once all participants agree on a new set of virtual channels everything can be again settled on LN.
-
 This way most onboarded people will not need to make an on-chain transaction which reveals a place for later users and more niche optimizations. ☀️
-🦤 Nostr simplifies p2p communication between 🫂Verified Contacts. They issue and exchange 🥜Cashu tokens to optimize settlement, gradually building a resilient network.
+
+> 🦤 Nostr simplifies p2p communication between 🫂Verified Contacts. They issue and exchange 🥜Cashu tokens to optimize settlement, gradually building a resilient network.
