@@ -18,14 +18,23 @@ There’s a known progression:
 
 [Josef Tětek](https://damus.io/npub1llkvd2zh596r437k5guqqpvktn0jtz4tasn3zfqnjuktue33wagqm2ftee) says that the third characteristic (UoA) is redundant, because once you’re paying with something, you’re already thinking in it. That’s kind of true — but this logic works in all directions:
 
-- If I think in dollars, I’ll tend to pay in dollars (UoA → MoE)
-- If I think in dollars, I’ll tend to save in dollars (UoA → SoV)
-- If I pay in dollars, I’ll tend to think in dollars (MoE → UoA)
-- If I pay in dollars, I’ll tend to save in dollars (MoE → SoV)
-- If I save in dollars, I’ll tend to pay in dollars (SoV → MoE)
+<table>
+  <tr>
+    <td>
+
+- If I think in dollars, I’ll tend to pay in dollars (UoA → MoE)  
+- If I think in dollars, I’ll tend to save in dollars (UoA → SoV)  
+- If I pay in dollars, I’ll tend to think in dollars (MoE → UoA)  
+- If I pay in dollars, I’ll tend to save in dollars (MoE → SoV)  
+- If I save in dollars, I’ll tend to pay in dollars (SoV → MoE)  
 - If I save in dollars, I’ll tend to think in dollars (SoV → UoA)
 
-![triangle](https://github.com/user-attachments/assets/e5da4f83-93e5-427c-b493-b6dcb11f778f)
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/e5da4f83-93e5-427c-b493-b6dcb11f778f" width="300">
+    </td>
+  </tr>
+</table>
 
 So the order of adoption can be completely arbitrary.
 
