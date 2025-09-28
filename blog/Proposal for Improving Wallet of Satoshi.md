@@ -8,12 +8,17 @@ The following proposed improvements focus on three key areas: **UI consistency, 
 
 ### UI
 
-- Standardize screen layouts – keep the back button consistently in the same position.
+- Standardize screen layouts
+  - There are different type of buttons (ie in the amount entry screen) - filled/transparent, yellow/gray, different sizes. Sometimes an icon is included, sometimes not
+  - The tab navigation works differently in receive than in the POS view
+  – Back button is not consistently in the same position - scan has it in right bottom, otherwise it's in the top
 - Standardize how balance and fiat values are displayed.
+  - The POS view also looks unnecessarily different from the receive view 
 - Allow users to hide fiat display.
 - ~Let users set their preferred default input (fiat or bitcoin).~ _It already preselects the last used, which is even better_
 - Remove full bitcoin display option – sats-only is sufficient.
 - Toggle between `sats` / `₿` / `no unit` display.
+  - The `no unit` display can be useful when is the unit obvious from context. Removing the unit label entirely avoids confusion or debates about notation. It’s already clear that values are in sats.
 
 ### UX
 
