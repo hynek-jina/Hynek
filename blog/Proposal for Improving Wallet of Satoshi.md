@@ -11,14 +11,14 @@ The following proposed improvements focus on three key areas: **UI consistency, 
 - Standardize screen layouts – keep the back button consistently in the same position.
 - Standardize how balance and fiat values are displayed.
 - Allow users to hide fiat display.
-- Let users set their preferred default input (fiat or bitcoin).
+- ~Let users set their preferred default input (fiat or bitcoin).~ _It already preselects the last used, which is even better_
 - Remove full bitcoin display option – sats-only is sufficient.
 - Toggle between `sats` / `₿` / `no unit` display.
 
 ### UX
 
-- Remove unnecessary decimal input (This adds 2 extra clicks per payment - for example with CZK).
-- When tapping *Receive*, go directly to amount entry.
+- Remove unnecessary decimal input in POS (This adds 2 extra clicks per payment - for example with CZK).
+- When tapping *Receive*, go directly to amount entry. 
 - In Menu, make backup the most important and visible option.
 
 ### Contacts
